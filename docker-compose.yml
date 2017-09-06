@@ -1,8 +1,8 @@
 version: '3.2'
 services:
   gearman:
-     build: ./
-     image: starberry/gearman
+#     build: ./
+     image: starberry/gearman:latest
      deploy:
        restart_policy:
          condition: on-failure
