@@ -1,0 +1,14 @@
+version: '3.2'
+services:
+  gearman:
+     build: ./
+     image: starberry/gearman
+     deploy:
+       restart_policy:
+         condition: on-failure
+     ports:
+       - "4730:4730"
+     volumes:
+       - type: bind
+         source: ./gearmand.conf
+         target: /etc/gearmand.conf

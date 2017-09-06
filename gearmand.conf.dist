@@ -1,0 +1,12 @@
+--listen=0.0.0.0
+--port=4730
+--log-file=stderr
+--verbose=INFO
+
+--queue-type=mysql
+--mysql-host=127.0.0.1
+--mysql-port=3306
+--mysql-user=me
+--mysql-password=secret
+--mysql-db=gearman
+--mysql-table=gearman
