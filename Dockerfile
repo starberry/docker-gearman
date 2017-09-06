@@ -1,3 +1,5 @@
+# Taken liberally from artefactual-labs/docker-gearmand
+
 FROM alpine:3.6
 
 ENV GEARMAND_VERSION 1.1.17
